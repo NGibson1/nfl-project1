@@ -1,0 +1,243 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(45deg, white, grey, blue);
+}
+h2 {
+    text-transform: capitalize;
+    color: gray;
+}
+.navbar {
+    background:gray;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+    padding-left: 15px;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: gold;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.header {
+    background-image: url('images/header-background.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+.fade-in {
+    animation: fadeIn 6s linear infinite;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.description {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+.description h1 {
+	color: white;
+}
+.description button:hover {
+	border:1px solid #fff;
+    background:#fff;
+    color:#000;
+}
+.afc {
+	padding: 4em 4em 4em 4mm;
+}
+.team {
+	padding: 60px, 60px, 60px, 60px;
+
+    display: block;
+    text-decoration: none;
+}
+.team .card-columns {
+	-webkit-column-count: 4;
+	-moz-column-count: 4;
+	column-count: 4;
+}
+.team .card {
+	border: grey;
+    padding: 30px, 30px, 30px, 30px;
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+.team .card-title {
+	font-size: 1.3rem;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+.page-footer {
+    color: rgb(95, 99, 106);
+    padding: 60px 0 30px;
+}
+.footer-copyright {
+    color: rgb(0, 1, 7);
+    padding: 40px 0;
+}
+#ravens{
+    color: #ffffff;
+    background-color: #241773;
+}
+#bengals{
+    color: #000000;
+    background-color: #fbaf14;
+}
+#browns{
+    color: #ff3c00;
+    background-color: #311d00;
+}
+#steelers{
+    color: #ffb612;
+    background-color: #101820;
+}
+
+#bills{
+    color: #c60c30;
+    background-color: #00338d;
+}
+#dolphins{
+    color: #fc4c02;
+    background-color: #008e97;
+}
+#patriots{
+    color: #002244;
+    background-color: #c60c30;
+}
+#jets{
+    color: #fff;
+    background-color: #125740;
+}
+#texans{
+    color: #03202f;
+    background-color: #a71930;
+}
+#colts{
+    color: #a2aaad;
+    background-color: #002c5f;
+}
+#jaguars{
+    color: #d7a22a;
+    background-color: #006778;
+}
+#titans{
+    color: #0c2340;
+    background-color: #4b92db;
+}
+#broncos{
+    color: #002244;
+    background-color: #fb4f14;
+}
+#cheifs{
+    color: #ffb81c;
+    background-color: #e31837;
+}
+#raiders{
+    color: #a5acaf;
+    background-color: #000000;
+}
+#chargers{
+    color: #ffc20e;
+    background-color: #0080c6;
+}
+#bears{
+    color: #c83803;
+    background-color: #0b162a;
+}
+#lions{
+    color: #b0b7bc;
+    background-color: #0076b6;
+}
+#packers{
+    color: #ffb612;
+    background-color: #203731;
+}
+#vikings{
+    color: #ffc62f;
+    background-color: #4f2683;
+}
+#cowboys{
+    color: #869397;
+    background-color: #003594;
+}
+#giants{
+    color: #0b2265;
+    background-color: #a71930;
+}
+#eagles{
+    color: #a5acaf;
+    background-color: #004c54;
+}
+#commanders{
+    color: #ffb612;
+    background-color: #5a1414;
+}
+#falcons{
+    color: #000000;
+    background-color: #a71930;
+}
+#panthers{
+    color: #bfc0bf;
+    background-color: #0085ca;
+}
+#saints{
+    color: #000;
+    background-color: purple;
+}
+#saints{
+    color: #d3bc8d;
+    background-color: #101820;
+}
+#buccaneers{
+    color: #ff7900;
+    background-color: #d50a0a;
+}
+#cardinals{
+    color: #ffb612;
+    background-color: #97233f;
+}
+#rams{
+    color: #ffd100;
+    background-color: #003594;
+}
+#sanfran{
+    color: #b3995d;
+    background-color: #aa0000;
+}
+#seahawks{
+    color: #002244;
+    background-color: #69be28;
+}
