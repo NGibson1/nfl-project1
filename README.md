@@ -4,7 +4,7 @@
 
 ## Quick Installation
 - $ git clone https://github.com/NGibson1/nfl-web-page.git
-- $ cd nfl-webpage
+- $ cd nfl project1
 
 ### Depenedicies
 - HTML
